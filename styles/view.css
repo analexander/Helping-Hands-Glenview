@@ -1,0 +1,25 @@
+/*
+filename: view.css
+project:  Helping Hands
+author:   James G Scherer
+date:     01/01/2007
+
+This file defines the CSS view layout. It further defines the top level CSS
+layout (site.css) used by this application.
+
+*/
+
+#List ul {
+  margin: 0em 0em 1em 0em;
+  padding: 0em;
+  list-style: none;
+  border: 1px dotted;
+  }
+#List li {
+  margin: 2px;
+  padding: 0px;
+  font-size: 1.00em;
+  line-height: 1.25em;
+  list-style: none;
+  display: block;
+  }

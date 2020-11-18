@@ -1,0 +1,77 @@
+/*
+filename: form.css
+project:  Helping Hands
+author:   James G Scherer
+date:     01/01/2007
+
+This file defines the CSS form layout. It further defines the top level CSS
+layout (site.css) used by this application.
+
+*/
+
+form {
+   font:100% Verdana, Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   min-width: 500px;
+   max-width: 578px;
+   width: 578px;
+}
+
+form fieldset {
+   margin: 10px 0;
+   padding: 10px;
+   border-color: #000;
+   border-width: 1px;
+   border-style: solid;
+ }
+form fieldset legend { font-size:1.1em; }
+form fieldset div { padding: 0.25em 0; }
+form fieldset div label, form fieldset div span.label {
+   margin: 6px 10px 0 0;
+   padding: 0 10px 0 0 ;
+   width: 150px;
+   display: block;
+   float: left;
+   text-align: right;
+   position: relative;
+}
+form fieldset div input, form fieldset div select {
+   width: 300px;
+   margin:5px 0 0 10px;
+   color: black;
+   background-color: white;
+}
+
+form fieldset div textarea {
+   width: 300px;
+   height: 100px;
+   margin:5px 0 0 10px;
+   color: black;
+   background-color: white;
+   overflow: auto;
+}
+
+form fieldset div [disabled] {
+   border: none;
+   color: black;
+   background-color: transparent;
+}
+
+form fieldset div select [disabled] {
+   color: gray;
+}
+
+.information { color: blue; }
+.errors      { color: red; }
+
+.chkboxlbl { margin-top: 3px; }
+
+.buttonSubmit { font-size: 1.1em; margin: 1em 0 0 6em; }
+.buttonReset  { font-size: 1.1em; margin:  0 0 0 2em; }
+
+label.optional { color: black; }
+label.required { color: green; }
+label.required:before { content: "* "; }
+
+input.date { width: 85px; }

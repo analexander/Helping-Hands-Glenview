@@ -1,0 +1,47 @@
+/*
+filename: menu.css
+project:  Helping Hands
+author:   James G Scherer
+date:     01/01/2007
+
+This file defines the CSS menu layout. It further defines the top level CSS
+layout (site.css) used by this application.
+
+*/
+
+#MenuMain ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+#MenuMain li a {
+  padding: 1em;
+  font: bold italic 12pt/2 sans-serif, arial;
+  color: #fff;
+  background-color: transparent;
+}
+
+#MenuMain a:hover { color: #ddd; background-color : transparent; }
+
+#MenuSub {
+  color: #fff;
+  background-color: #7F00FF;
+}
+#MenuSub ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#MenuSub a {
+  padding-left: .5em;
+  padding-right: .5em;
+  font: bold italic 10pt/2 sans-serif, arial;
+  color: #fff;
+  background-color: #7F00FF;
+}
+
+#MenuSub a:hover {
+  color: #ddd;
+  background-color: transparent;
+}

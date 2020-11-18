@@ -1,0 +1,113 @@
+body,html {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    margin: 4px;
+    width: 747px;
+    color: #001;
+    background-color: #ffe;
+}
+
+a { text-decoration: none; }
+
+#header {
+    height:             110px;
+    width:              747px;
+    background-image:   url("../images/header.jpg");
+    background-repeat:  no-repeat;
+}
+#header h1 { display:none; }
+
+#footer {
+	height:				110px;
+	width:				747px;
+/*    background-image:	url("../images/header.jpg");
+	background-repeat:	no-repeat; */
+}
+
+#footer h1 { display:none; }
+
+#content {
+	margin:				   0px;
+	width:				 747px;
+	height:				1200px;
+}
+
+ul#menumain {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+ul#menumain li a {
+	padding: 1em;
+	font: bold italic 12pt/2 sans-serif, arial;
+	color: #fff;
+}
+ul#menumain a:hover { color: #ddd; }
+
+#content_right {
+	padding-top:	  	  31px;
+}
+#content_right td { font: 10pt arial, sans-serif; }
+
+
+label {
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+#formbutton {
+	margin-left: 100px;
+}
+
+#UserList ul {
+	margin:  0px;
+	margin-bottom: 1em;
+	padding: 0px;
+	border: 1px dotted
+	}
+#UserList li {
+	font-size:1.25em;
+	line-height: 2.5ex;
+	list-style-type: none;
+/*	background: transparent url(cr1.gif) no-repeat top center; */
+	display: block;
+	padding: 0px;
+	margin: 5px;
+	}
+
+#update form {
+   font:100% Verdana, Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   min-width: 500px;
+   max-width: 578px;
+   width: 578px;
+}
+
+#update fieldset {
+   margin: 10px 0;
+   padding: 10px;
+   border-color: #000;
+   border-width: 1px;
+   border-style: solid;
+ }
+#update legend { font-size:1.1em; }
+#update fieldset div { padding: 0.25em 0; }
+#update label, span.label {
+	margin: 5px 10px 0 0;
+	padding: 0 10px 0 0 ;
+	width: 150px;
+	display: block;
+	float: left;
+	text-align: right;
+	position: relative;
+	}
+#update input, textarea { width:auto; margin:5px 0 0 10px; }
+#update textarea { overflow: auto; }
+
+#update ul li { list-style: none; margin: 0; padding: 0; }
+
+#update .checkbox {  }
+
+#update .buttonSubmit { font-size: 1.1em; margin: 1em 0 0 6em; }
+#update .buttonReset  { font-size: 1.1em; margin:  0 0 0 2em; }

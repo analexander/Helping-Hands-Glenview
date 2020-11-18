@@ -1,0 +1,123 @@
+/*
+filename: site.css
+project:  Helping Hands
+author:   James G Scherer
+date:     01/01/2007
+
+This file defines the CSS site layout. This includes the highest level
+definitions and subdivides the page into header, content, and footer.
+It also futher subdivides the content into content_left and content_right.
+
+I use seperate CSS files to define specific layouts such as:
+
+menu.css to layout the menu
+view.css to layout the views
+form.css to layout the forms
+*/
+
+body,html {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  margin: 4px;
+  width: 747px;
+  color: #001;
+  background-color: #ffe;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+a { text-decoration: none; }
+
+label {
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+#header {
+  height: 110px;
+  width: 747px;
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+}
+#header h1 { display:none; }
+
+#footer {
+  height: 110px;
+  width: 747px;
+  background-repeat: no-repeat;
+}
+
+#footer h1 { display:none; }
+
+#content {
+  margin: 0px;
+  width:  747px;
+  height: 1200px;
+}
+
+#content_left {
+/* border: 2px solid red; */
+  position: absolute;
+  margin-top: 0px;
+  width: 155px;
+  height: 1200px;
+  background-image: url("../images/bgtile.gif");
+  background-repeat: no-repeat;
+}
+#content_left h1 { display:none; }
+
+#content_right {
+  position: absolute;
+  margin-left: 172px;
+  padding-top: 18px;
+  width: 576px;
+  float: right;
+  font: 10pt arial, sans-serif;
+}
+#content_right td {  }
+
+.siteNotice {
+  color: red;
+  font: 12pt arial, sans-serif;
+}
+
+#content_right {
+  position: absolute;
+  margin-left: 172px;
+  padding-top: 18px;
+  width: 576px;
+  float: right;
+  font: 10pt arial, sans-serif;
+}
+
+.pdf {
+  text-align: center;
+  font-weight: bold;
+  font-variant:small-caps;
+}
+
+.adobe {
+  text-align: center;
+}
+
+.address {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Font Sizes */
+.small_font    { font-size:small; }
+.medium_font   { font-size:medium; }
+.large_font    { font-size:large; }
+.x_large_font  { font-size:x-large; }
+.xx_large_font { font-size:xx-large; }
